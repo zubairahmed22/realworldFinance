@@ -67,6 +67,12 @@ i.fa.fa-bars {
 /* media query header */
 
 @media only screen and (max-width: 768px) {
+    .active{
+        display: block;
+      }
+      .inactive{
+        display: none;
+      }
     .RightMenu_ul{
         display: flex;
         flex-direction: column;
@@ -345,7 +351,12 @@ i.fa.fa-bars {
         width: 22% !important;
         align-items: start;
     }
-
+    .active{
+        display: block;
+      }
+      .inactive{
+        display: none;
+      }
     .wellet_balance{
         display: flex;
         flex-direction: column;
@@ -396,7 +407,12 @@ i.fa.fa-bars {
 
 
  @media only screen and (max-width: 320px) {
-
+    .active{
+        display: block;
+      }
+      .inactive{
+        display: none;
+      }
     .RightMenu_ul{
         display: flex;
         flex-direction: column;
