@@ -1,0 +1,529 @@
+.menuHeader > h3{
+    color: rgb(246, 248, 246);
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+
+.menuHeader{
+    display: flex;
+    justify-content: space-around;
+    background-color: #181633;
+    width: 100%;
+    height: 100px;
+    ;
+    
+    align-items: center;
+}
+.RightMenu{
+    display: flex;
+     
+    justify-content: end;
+}
+.RightMenu_ul {
+    display: flex;
+    align-items: center;
+    
+}
+.RightMenu_ul > li{
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.RightMenu_ul > button {
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    background-color: #6957e4;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.logo1_binance{
+    width: 28%;
+    align-items: start;
+}
+.logoDiv{
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+}
+
+i.fa.fa-bars {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    display: none;
+}
+/* media query header */
+
+@media only screen and (max-width: 768px) {
+    .RightMenu_ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 85%;
+        position: absolute;
+        justify-content: flex-end;
+        background-color: #2e2b56;
+        margin-top: 70px !important;
+        padding: 10px;
+        border-radius: 5px;
+        transition: box-shadow .15s ease-in-out;
+        
+        margin-right: 0px !important;
+
+          
+      }
+      .logo1_binance{
+        width: 23% !important;
+        align-items: start;
+    }
+      .RightMenu_ul > li{
+        color: white;
+        border-bottom: 1px solid rgb(228, 225, 225);
+        width: 95%;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    i.fa.fa-bars {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        margin-top: 7px;
+        display: block;
+        cursor: pointer;
+        background-color: #6957e4;
+        padding: 5px 10px;
+        border-radius: 3px;
+
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .RightMenu_ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+        position: absolute;
+        justify-content: flex-end;
+        background-color: #2e2b56;
+        margin-top: 70px !important;
+        padding: 10px;
+        border-radius: 5px;
+        transition: box-shadow .15s ease-in-out;
+        display: none;
+      
+        
+          
+      }
+      .logo1_binance{
+        width: 25% !important;
+        align-items: start;
+    }
+      .active{
+        display: block;
+      }
+      .inactive{
+        display: none;
+      }
+      .RightMenu_ul > button {
+        color: white;
+        font-weight: 700;
+        width: 150px;
+        background-color: #6957e4;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 18px;
+        display: block;
+    }
+    .RightMenu_ul > li{
+        color: white;
+        border-bottom: 1px solid rgb(228, 225, 225);
+        width: 95%;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 5px;
+    }
+      i.fa.fa-bars {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        margin-top: 7px;
+        display: block;
+        cursor: pointer;
+        background-color: #6957e4;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+  }
+/* hero section css */
+
+ /* medai query*/
+
+
+
+ @media only screen and (max-width: 450px) {
+    .Binance_pool{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        
+        padding-bottom: 50px;
+        align-items: center;
+        width: 85% !important;
+        margin: auto !important;
+    }
+    .RightMenu_ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 85%;
+        position: absolute;
+        justify-content: flex-end;
+        background-color: #2e2b56;
+        margin-top: 70px !important;
+        padding: 10px;
+        border-radius: 5px;
+        transition: box-shadow .15s ease-in-out;
+        
+        
+        margin-right: 0px !important;
+
+          
+      }
+    .logo1_binance{
+        width: 22% !important;
+        align-items: start;
+    }
+    .wellet_balance{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+      
+    }
+    .MainBox{
+        width: 90% !important;
+        background-color: rgb(233, 227, 227);
+        margin-top: 15px !important;
+        margin: auto;
+    }
+
+    .colud_mining{
+        font-size: 30px !important;
+        color: #FFC226;
+        word-spacing: 1.5px;
+        text-align: left;
+    }
+    
+     .Binance_Container{
+        width: 400px !important;
+        height: auto; 
+        align-items: center !important;
+     
+     }
+
+     .logoContainer{
+        display: flex;
+        justify-content: flex-start;
+        width: 300px
+        }
+
+     .imageBox{
+        width: 100%;
+    }
+    .section_logo{
+        width: 100%;
+        
+    }
+
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        
+        
+        }
+
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    .Binance_pool{
+        margin-top: 50px !important;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px !important;
+        width: 100%;
+        align-items: center;
+    }
+    .wellet_balance{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+      
+    }
+
+    .MainBox{
+        width: 90% !important;
+        background-color: rgb(233, 227, 227);
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .Binance_Container{
+        width: 400px !important;
+        height: auto; 
+        align-items: center;
+     
+     }
+
+     .colud_mining{
+        font-size: 50px !important;
+        color: #FFC226;
+        word-spacing: 1.5px;
+        text-align: left;
+    }
+
+    .imageBox{
+        width: 70% !important;
+    }
+
+ }
+
+ @media only screen and (max-width: 390px) {
+
+    .RightMenu_ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 85%;
+        position: absolute;
+        justify-content: flex-end;
+        background-color: #2e2b56;
+        margin-top: 70px !important;
+        padding: 10px;
+        border-radius: 5px;
+        transition: box-shadow .15s ease-in-out;
+        
+        
+        margin-right: 0px !important;
+
+          
+      }
+    .Binance_pool{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        width: 95% !important;
+    }
+    .logo1_binance{
+        width: 22% !important;
+        align-items: start;
+    }
+
+    .wellet_balance{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+      
+    }
+    .MainBox{
+        width: 90% !important;
+        background-color: rgb(233, 227, 227);
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .Binance_Container{
+        width: 95% !important;
+        height: auto; 
+        align-items: start;
+     
+     }
+
+     .logoContainer{
+        width: 95% !important;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .section_logo{
+            width: 100% !important;
+            
+        }
+
+        .colud_mining{
+            font-size: 35px !important;
+            color: #FFC226;
+            word-spacing: 1.5px;
+            text-align: left;
+        }
+        .imageBox{
+            width: 80% !important;
+        }
+ }
+
+
+
+
+
+ @media only screen and (max-width: 320px) {
+
+    .RightMenu_ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90% !important;
+        position: absolute;
+        justify-content: flex-end;
+        background-color: #2e2b56;
+        margin-top: 70px !important;
+        padding: 10px;
+        border-radius: 5px;
+        transition: box-shadow .15s ease-in-out;
+        margin-right: 0px !important;
+
+          
+      }
+    .Binance_pool{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        width: 95% !important;
+    }
+    .logo1_binance{
+        width: 22% !important;
+        align-items: start;
+    }
+    .wellet_balance{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+      
+    }
+    .MainBox{
+        width: 90% !important;
+        background-color: rgb(233, 227, 227);
+        margin-top: 15px !important;
+        margin: auto;
+    }
+    .Binance_Container{
+        width: 95% !important;
+        height: auto; 
+        align-items: start;
+     
+     }
+
+     .logoContainer{
+        width: 95% !important;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .section_logo{
+            width: 100% !important;
+            
+        }
+
+        .colud_mining{
+            font-size: 35px !important;
+            color: #FFC226;
+            word-spacing: 1.5px;
+            text-align: left;
+        }
+        .imageBox{
+            width: 80% !important;
+        }
+ }
+
+
+
+.Binance_pool{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.section_logo{
+    width: 55%;
+    
+}
+.Binance_Container{
+   width: 35%;
+   height: auto; 
+   align-items: start;
+
+}
+.logoContainer{
+display: flex;
+justify-content: flex-start;
+}
+.textContainer{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+.textContainer > h3 {
+    color: white !important;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  
+    
+}
+.textContainer > p {
+    font-weight: 100;
+    font-family: 'Nunito';
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #cdcaca;
+}
+
+.imageBox{
+    width: 30%;
+}
+.colud_mining{
+    font-size: 70px;
+    color: #FFC226;
+    word-spacing: 1.5px;
+    text-align: left;
+}
+
+

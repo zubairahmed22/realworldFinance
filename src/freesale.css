@@ -1,0 +1,726 @@
+
+.Rightdev1{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    overflow: auto;
+    max-height: 100vh;
+    justify-content: center;
+    
+    
+}
+
+.navLink{
+    background-color: #365d9d !important;
+    color: white;
+}
+.component{
+ display: none
+}
+.active{
+    display: block;
+
+}
+.btnList {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    gap: 20px;
+}
+.btnList > button {
+    background-color: lightgray;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10p;
+    margin-top: px;
+    margin-top: 10px;
+}
+/* second component css style */
+.secondmainDiv{
+    width: 550px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+.lastDiv1 {
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border: unset;
+    outline: unset;
+    cursor: pointer;
+    
+    background-color: #afc7ee;
+    color: white;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.topSwapDiv{
+
+margin-top: 40px;
+border-bottom: 1px solid rgb(212 212 212) !important;
+margin-left: 20px;
+margin-right: 20px;
+}
+.topSwapDiv > h6 {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6e6a6a;
+}
+.topSwapDiv > p {
+    color: #615e5e;
+}
+.balance_text {
+    color: #615e5e !important;
+    font-size: 13px !important;
+}
+.ButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e5a5a;
+    border-radius: 7px;
+    margin: 20px;
+    border: 1px solid rgb(212 212 212) !important;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#edeef2+0,ecedf1+52,ecedf1+100 */
+background: linear-gradient(135deg,  #edeef2 0%,#ecedf1 52%,#ecedf1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+
+.ButtonContainer1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e5a5a;
+    border-radius: 7px;
+    margin: 20px;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfaf2+0,ecedf1+52,ecedf1+100 */
+background: linear-gradient(45deg,  #ecedf1 0%,#ecedf1 52%,#ecedf1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+}
+.coversionItem > p {
+    color: #615e5e;
+    font-weight: 400;
+    padding: 0px;
+}
+.coversionItem > h5 {
+    color: #6e6a6a;
+    font-weight: 500;
+}
+.bntDiv {
+    width: 95%;
+    background-color: #EBA91F;
+    padding: 10px 0px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.divItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.divItem > p {
+    color: #6e6a6a;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.balance {
+    color: rgb(110 106 106);
+    font-size: 15px;
+    font-weight: 400;
+}
+.divItemLeft > p {
+    color: #6e6a6a;
+    font-size: 25px;
+    font-weight: 500;
+}
+.iconDiv > p {
+    color: #6e6a6a;
+    font-weight: 600;
+    font-size: 13px;
+}
+.divItemLeft {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.iconDiv {
+    display: flex;
+    gap: 10px;
+    vertical-align: center;
+}
+img.bnbimage_icon {
+    width: 20%;
+    height: 18px;
+}
+img.bnbimage_icon1 {
+  margin-top: -10px;
+}
+.coversion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid rgb(212 212 212) !important;
+}
+
+.coversion > p {
+    color: #615e5e;
+    font-weight: 400;
+}
+.coversionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+.toggleBox > button{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ececed;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px -6px rgba(17,12,34,.102);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 16px auto 0;
+    outline: none;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin-top: -30px;
+    width: 40px;
+}
+.toggle_icon{
+    margin-left: 10px;
+    width: 40px;
+    height: 25px;
+}
+
+/* second component css style end */
+
+.button1 > p {
+    color: white;
+    font-weight: 400;
+   
+    font-weight: 500 !important;
+    font-size: 15px;
+}
+.firtone{
+    
+    background-color: white;
+    width: 450px;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 60px;
+    padding-top: 40px;
+    
+}
+
+.button1 > p > span {
+    color: white !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Birdgetext {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Birdgetext > h3 {
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.bgDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 10px;
+}
+.buttonbox1{
+    height: 17px;
+    background-color: #d86935;
+    border-radius: 100px;
+    width: 70%;
+}
+.buttonbox {
+    height: 17px;
+    background-color: #365d9d;
+    border-radius: 100px;
+}
+.bgDiv>.button1 {
+    background-color: #365d9d;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    gap: 2px;
+    padding-top: 10px;
+    width: 48%;
+}
+@media only screen and (max-width: 580px){
+    .secondmainDiv{
+        width: 550px;
+      background-color: whitesmoke;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .coversionItem {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        padding: 0px !important;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .bgDiv > .button1 {
+        border: none;
+        background-color: #365d9d;
+        color: #ffffff;
+        width: 48%;
+        gap: 2px;
+        /* padding: 6px; */
+        border-radius: 3px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .secondmainDiv{
+        width: 550px;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .button1 > p > span {
+        color: white !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    
+    .firtone {
+        background-color: white;
+        width: 512px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .button1 > p {
+        color: white;
+        font-weight: 400;
+        text-align: start !important;
+        font-weight: 500 !important;
+        font-size: 15px;
+    }
+    .percentage{
+        color: white;
+        text-align: 
+        center;
+        align-items: center;
+        padding-right: 3px;
+        
+       }
+}
+
+@media only screen and (max-width: 300px){
+    .percentage {
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding-right: 3px;
+        padding-left: 70px !important;
+    }
+    .boxi > p {
+        font-weight: 700;
+        font-size: 1.1rem;
+        line-height: 1.43;
+        color: #507baf;
+        margin-right: 30px;
+    }
+    .button1 > p {
+        color: white;
+        /* padding-right: 20px; */
+        font-weight: 400;
+        text-align: center;
+    }
+    p.percentage {
+        padding-bottom: 1px !important;
+        /* margin-top: -4px; */
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .firtone {
+        background-color: white;
+        width: 512px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+  
+@media only screen and (max-width: 383px){
+
+    .bgDiv > .button1 {
+        border: none;
+        background-color: #365d9d;
+        color: #ffffff;
+        width: 48%;
+        gap: 2px;
+        /* padding: 6px; */
+        border-radius: 3px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .secondmainDiv{
+        width: 550px;
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .coversionItem {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        padding: 0px !important;
+        height: 30px;
+    }
+    
+    .firtone {
+        background-color: white;
+        width: 500px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    .percentage {
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding-right: 3px;
+        padding-left: 100px !important;
+        padding-bottom: 1px !important;
+        /* margin-top: -4px; */
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .tranferTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+}
+.button1 > p {
+    color: white;
+    
+    font-weight: 400;
+    text-align: center !important;
+}
+
+.bgDiv > button{
+    border: none;
+    color: #4f4b5c;
+
+    width: 40%;
+    
+    
+    
+}
+
+.percentage{
+    color: white;
+    text-align: 
+    center;
+    align-items: center;
+    padding-right: 3px;
+    padding-left: 150px;
+    padding-bottom: 1px !important;
+    /* margin-top: -4px; */
+    font-size: 11px;
+    font-weight: 700;
+   }
+.divone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+}
+.divone > img{
+    width: 20px;
+}
+.divone > h4 {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.43;
+    color: hsl(254, 10%, 33%);
+}
+.secondone > p, span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #d86935;
+    /* margin-right: 10px; */
+}
+.secondone > span {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8d8a95;
+    margin-right: 10px;
+    gap: 8px;
+}
+.transfer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.3333;
+    color: #8d8a95;
+    
+}
+.etherum {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+
+.etherum > h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.secondEthereum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #f3f3f4;
+    border-radius: 0px 0px 12px 12px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0
+}
+.leftEthereum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    border: 1px;
+}
+.leftEthereum > img{
+ width: 20px;
+}
+.leftEthereum > span{
+    margin: 0 0 0 8px;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.43;
+    color: #4f4b5c;
+}
+.RightEthereum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.RightEthereum > span{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4f4b5c;
+    margin: 0 12px;
+    outline: none;
+}
+img.bnb_icon {
+    width: 22px;
+    text-align: center;
+    margin-right: 10px;
+}
+.BtnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+button > img {
+    margin-right: 10px;
+}
+.BtnContainer > button {
+    border-radius: 6px;
+    border: 1px solid #ececed;
+    font-size: .5rem;
+    font-weight: 500;
+    line-height: 1.25;
+    padding: 4px 8px;
+    font-size: .75rem;
+    line-height: 1.33;
+}
+.tranferTwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.boxi{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+  
+}
+.boxi > p {
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.43;
+    color: #507baf;
+}
+
+.mainBox > p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #507baf;
+}
+.mainBox > span {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #d86935;
+}
+.lastDiv {
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border: unset;
+    outline: unset;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: #365d9d;
+    color: white;
+    margin-top: 35px;
+}
+img.bnb_icon {
+    width: 22px;
+    text-align: center;
+}
+
+
+.CurrencyBTN > button {
+    background-color: #365d9d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width: 48%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.CurrencyBTN {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.RightMain {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    background-color: #365d9d;
+}
