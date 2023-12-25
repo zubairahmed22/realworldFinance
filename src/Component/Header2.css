@@ -326,17 +326,19 @@ i.fa.fa-bars {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 85%;
+        width: 90%;
         position: absolute;
         justify-content: flex-end;
         background-color: #2e2b56;
         margin-top: 70px !important;
+        margin-right: 8px !important;
         padding: 10px;
         border-radius: 5px;
+        
         transition: box-shadow .15s ease-in-out;
         
         
-        margin-right: 0px !important;
+        
 
           
       }

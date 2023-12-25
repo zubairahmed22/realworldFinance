@@ -9,7 +9,7 @@ const MidddleSection = () => {
             <h5>available Balance</h5>
             <div className='itemContanier'>
             <p>wallet Balace</p>
-            <p className='BUSD'>0.00 BUSD</p>
+            <p className='BUSD'>0.00 ETH</p>
             </div>
             </div>
 
@@ -17,14 +17,14 @@ const MidddleSection = () => {
             <h5>Overview</h5>
             <div className='itemContanier'>
             <p>wallet Balace</p>
-            <p className='BUSD'>0.00 BUSD</p>
+            <p className='BUSD'>0.00 USDT</p>
             </div>
             </div>
             <div className='MainBox'>
             <h5>pending transactions</h5>
             <div className='itemContanier'>
             <p>wallet Balace</p>
-            <p className='BUSD'> 0.00 BUSD </p>
+            <p className='BUSD'> 0.00 USDC </p>
             </div>
             </div>
 
