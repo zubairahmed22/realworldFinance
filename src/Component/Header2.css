@@ -187,7 +187,7 @@ i.fa.fa-bars {
 
  @media only screen and (max-width: 450px) {
     .Binance_pool{
-        padding-top: 150px;
+        padding-top: 170px;
         display: flex;
         flex-direction: column;
         
@@ -284,7 +284,7 @@ i.fa.fa-bars {
  @media only screen and (max-width: 768px) {
 
     .Binance_pool{
-        padding-top: 50px !important;
+        padding-top: 170px !important;
         display: flex;
         flex-direction: column;
         padding-bottom: 50px !important;
@@ -351,7 +351,7 @@ i.fa.fa-bars {
           
       }
     .Binance_pool{
-        padding-top: 150px !important;
+        padding-top: 170px !important;
         display: flex;
         flex-direction: column;
         padding-bottom: 50px;
@@ -440,7 +440,7 @@ i.fa.fa-bars {
           
       }
     .Binance_pool{
-        padding-top: 150px !important;
+        padding-top: 170px !important;
         display: flex;
         flex-direction: column;
         padding-bottom: 50px;
