@@ -497,8 +497,10 @@ i.fa.fa-bars {
 
 
 
-.Binance_pool{
-    margin-top: 150px;
+
+
+.Binance_pool {
+    padding-top: 150px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;

@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+import { Link } from 'react-router-dom'
 import "./Header2.css"
 const Header2 = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,8 +14,8 @@ const Header2 = () => {
       </div>
       <div className='RightMenu'>
         <ul className={isOpen ? 'RightMenu_ul active': "RightMenu_ul inactive"}>
-          <li>Home</li>
-          <li>Serve</li>
+         <li> <Link to="/Home2">Home</Link></li>
+         <li> <Link to="/admin">Admin </Link></li>
           <li>Mine</li>
           <button>Connect Wallet</button>
           <button>Select Language</button>

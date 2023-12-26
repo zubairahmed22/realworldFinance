@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Herosection = () => {
+
+    useEffect(() =>{
+		AOS.init({duration: 2000})
+		
+		},[])
   return (
    
-        <div className='Binance_pool'>
-            <div className='Binance_Container'>
+        <div className='Binance_pool' >
+            <div className='Binance_Container' data-aos="fade-down">
                 <div className='logoContainer'>
                 <img src='assets/images/logo1.png' alt=''
                  className='section_logo'/>
@@ -17,7 +24,7 @@ const Herosection = () => {
                      their rights and break the rule of fear of decentralization by traders</p>
                      </div>
             </div>
-            <div className='imageBox'>
+            <div className='imageBox'data-aos="fade-up" >
                 <img src='assets/images/ban1.png' alt='ban image'/>
             </div>
         </div>

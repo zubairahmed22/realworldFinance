@@ -22,7 +22,11 @@ console.log("checking page",window.location.pathname )
     <>
   
     <div className="App">
-     {window.location.pathname=="/Home2"? <> <Home2/> 
+     {window.location.pathname=="/Home2" || window.location.pathname=="/admin"? <>
+     <Routes>
+      <Route path='/Home2' element={<Home2/>}/> 
+     <Route path="/admin" element={<Admin/>}/>
+     </Routes>
 	</>:<><HeaderComponent/>
   <Routes>
 

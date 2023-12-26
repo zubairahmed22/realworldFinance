@@ -9,3 +9,9 @@
     padding-bottom: 100px;
 
 }
+
+.adminPage{
+    background-color: black !important;
+    width: 100%;
+    height: auto;
+}
