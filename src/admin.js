@@ -52,7 +52,7 @@ const Admin = () => {
       </div>
       <div className="AdminContainer">
         <div className="HeadingDiv">
-          <h3>Admin Panal</h3>
+          <h3>Admin Panel</h3>
         </div>
         {data.map((item, i) => (
           <div className="adminMain">
